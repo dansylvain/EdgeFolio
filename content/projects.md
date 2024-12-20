@@ -7,9 +7,11 @@ seo:
 
 ---github
 repositories:
-  - leerob/leerob.io
-  - jxnblk/mdx-deck
-  - vercel/og-image
+
+- leerob/leerob.io
+- jxnblk/mdx-deck
+- vercel/og-image
+
 ---
 
 <PageTitle>
@@ -18,12 +20,11 @@ repositories:
 
 Discover my most popular open-source projects on Github.
 
-
-
 ---projects
 collection:
-  path: /projects
-  sortBy: date
+path: /projects
+sortBy: date
+
 ---
 
 <PageTitle>

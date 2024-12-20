@@ -5,19 +5,19 @@ seo:
   description: Custom description for this page goes here
 ---
 
-
-
 ---main
 images:
-  - src: /hero-2.png
-    alt: my photo
-  - src: /hero-mobile.jpg
-    alt: my photo
+
+- src: /hero-2.png
+  alt: my photo
+- src: /hero-mobile.jpg
+  alt: my photo
+
 ---
 
 # <Typewriter>Carl Hanson</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+# _Web Developer_ <span>&</span> _Growth Consultant_
 
 Sometimes five Imprimaturs are seen together dialogue-wise in the
 piazza of one title-page, complimenting and ducking each to other with
@@ -33,9 +33,8 @@ const services = [
 if (have_a_project) navigate('/contact')
 ```
 
-
-
 ---achievements
+
 - number: 6+
   text: Years of experience
 - number: 70+
@@ -44,33 +43,32 @@ if (have_a_project) navigate('/contact')
   text: OpenSource Libraries
 - number: 50+
   text: Clients World Wide
+
 ---
 
+## ---cta
 
-
----cta
----
 <Button href="/contact" size="sm">
   Download Resume
 </Button>
 
 [Get in Touch](/contact)
 
-
-
 ---companies
 title:
 list:
-  - name: Company 1
-    icon:
-      src: /icons/logo-1.svg
-  - name: Company 2
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 3
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 4
-    icon:
-      src: /icons/logo-4.svg
+
+- name: Company 1
+  icon:
+  src: /icons/logo-1.svg
+- name: Company 2
+  icon:
+  src: /icons/logo-3.svg
+- name: Company 3
+  icon:
+  src: /icons/logo-3.svg
+- name: Company 4
+  icon:
+  src: /icons/logo-4.svg
+
 ---
